@@ -1,9 +1,6 @@
 import React from 'react'
 import Layout from '../component/layout/Layout'
 import { Box, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, TextField, Button } from '@mui/material'
-import SupportAgentIcon from '@mui/icons-material/SupportAgent';
-import EmailIcon from '@mui/icons-material/Email';
-import CallIcon from '@mui/icons-material/Call';
 import India from "../images/india.jpg";
 import '../style/about.css'
 
