@@ -1,0 +1,57 @@
+.aboutTxt{
+    font-size: 3.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+}
+
+.mainHeading{
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.img1{
+    
+@media (max-width: 1440px) {
+    img {
+      height: 85vh; /* Adjust for ultrawide screens */
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    img {
+      height: 85vh; /* Adjust for regular desktops */
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    img {
+      height: 55vh; /* Adjust for small laptops and large tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    img {
+      height: 50vh; /* Adjust for tablets */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    img {
+      height: 40vh; /* Adjust for mobile phones */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    img {
+      height: 40vh; /* Adjust for small mobile devices */
+    }
+  }
+}
